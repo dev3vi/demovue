@@ -1,18 +1,15 @@
 <template>
-  <div class="hellos">
-
+  <div class="helloss">
+    <!--    <h1>{{ msg }}</h1>-->
     <h1>{{ age }}</h1>
     <button @click="cout">btn</button>
   </div>
-  <p>123</p>
 </template>
 
 <script>
 export default {
-  name: 'HelloWorld',
-  props: {
-    msg: String
-  },
+  name: 'DemoComponent',
+
   data: () => ({
     age: 18,
     taskManagementTable: {

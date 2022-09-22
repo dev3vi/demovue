@@ -1,6 +1,7 @@
 <template>
   <div class="helloss">
-    <h1>DemoComponent page</h1>
+    <p>-------------</p>
+    <span>DemoComponent page</span>
     <h1>{{ age }}</h1>
     <button @click="cout">btn</button>
   </div>

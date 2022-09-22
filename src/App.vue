@@ -1,7 +1,8 @@
 <template>
+  
   <v-app>
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-    <DemoComponent msg="Welcome to Your Vue.js App"/>
+    <HelloWorld/>
+    <DemoComponent/>
   </v-app>
 
 </template>
@@ -9,11 +10,13 @@
 <script>
 
 import DemoComponent from "./components/demo/DemoComponent";
+import HelloWorld from "@/components/HelloWorld";
 
 export default {
   name: 'App',
   components: {
-    DemoComponent
+    DemoComponent,
+    HelloWorld
   }
 }
 </script>

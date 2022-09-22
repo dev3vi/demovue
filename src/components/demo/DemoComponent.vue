@@ -1,6 +1,6 @@
 <template>
   <div class="helloss">
-    <!--    <h1>{{ msg }}</h1>-->
+    <h1>DemoComponent page</h1>
     <h1>{{ age }}</h1>
     <button @click="cout">btn</button>
   </div>

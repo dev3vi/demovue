@@ -1,10 +1,9 @@
 <template>
   <div class="hellos">
-
+    <span>Helloworld Page</span>
     <h1>{{ age }}</h1>
     <button @click="cout">btn</button>
   </div>
-  <p>123</p>
 </template>
 
 <script>

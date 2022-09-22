@@ -1,7 +1,7 @@
 <template>
   
   <v-app>
-    <HelloWorld/>
+    <HelloWorld :msg=test />
     <DemoComponent/>
   </v-app>
 
@@ -17,7 +17,12 @@ export default {
   components: {
     DemoComponent,
     HelloWorld
-  }
+  },
+  data() {
+    return {
+      test: "test-demo1"
+    }
+    }
 }
 </script>
 

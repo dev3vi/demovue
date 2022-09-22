@@ -1,7 +1,7 @@
 <template>
   <div class="hellos">
     <span>Helloworld Page</span>
-    <h1>{{ age }}</h1>
+    <h1>{{ msg }}</h1>
     <button @click="cout">btn</button>
   </div>
 </template>
